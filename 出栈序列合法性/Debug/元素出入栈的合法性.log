@@ -1,4 +1,4 @@
-﻿生成启动时间为 2016/6/2 0:36:00。
+﻿生成启动时间为 2016/6/2 1:01:54。
      1>项目“H:\Offer\出栈序列合法性\元素出入栈的合法性.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          D:\VS2013\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MainTest.cpp
@@ -10,4 +10,4 @@
 
 生成成功。
 
-已用时间 00:00:03.54
+已用时间 00:00:01.09
