@@ -19,11 +19,25 @@ long long Fibonacci(unsigned n)
 	return fibN;
 }
 
+//·½°¸¶þ
+long long Fibonacci2(int n)
+{
+	long long fibArray[3] = { 0, 1, n };
+
+	for (int i = 2; i <= n; ++i)
+	{
+		fibArray[2] = fibArray[1] + fibArray[0];
+		fibArray[0] = fibArray[1];
+		fibArray[1] = fibArray[2];
+	}
+
+	return fibArray[2];
+}
 void Test()
 {
 	int n = 0;
 	cout << "Please enter number:" << endl;
 	cin >> n;
-	long long num = Fibonacci(n);
+	long long num = Fibonacci2(n);
 	cout << "FibonacciNumber is :" <<num<< endl;
 }
